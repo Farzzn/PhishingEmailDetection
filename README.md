@@ -62,5 +62,5 @@ return Thld <br>
 end for
 
 
-![Alternate Text](images/Algo.PNG)
+![Alternate Text](Algo.png)
   
