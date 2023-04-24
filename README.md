@@ -62,5 +62,5 @@ return Thld <br>
 end for
 
 
-<img src="images/Algo.png" alt="Alternate Text" width="200"/>
+![Alternate Text](images/Algo.png)
   
