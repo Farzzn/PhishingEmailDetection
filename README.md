@@ -7,7 +7,7 @@
 <li>To search the optimum features set using Pearson cor- relation algorithm (PCC) with binary search as well as the sequential forward search algorithm.</li>
 <li>To verify the best features set by comparing with other feature selection algorithms on the basis of time, accu- racy and number of features.</li>
 <li>To justify the method by comparing the results with the existing approaches.</li>
-  </ul
+  </ul>
   
   
 <h2>Features from Hyperlinks</h2>
@@ -31,11 +31,16 @@
   </ul>
   
   <h2>Pearson Correlation Algorithm (PCC)</h2>
-  This paper has employed primarily Pearson correlation algo- rithm (PCC) to rank the features. It measures the linear corre- lation between two features. It assesses three classes of correlation: positive linear correlation is considered as 1, no linear correlation is 0, and negative linear correlation is −1.
+  This paper has employed primarily Pearson correlation algorithm (PCC) to rank the features. It measures the linear correlation between two features. It assesses three classes of correlation: positive linear correlation is considered as 1, no linear correlation is 0, and negative linear correlation is −1.
   Assume X = {x1 , x2 , ... xn } and Y = {y1 , y2 , ... yn } are two sets of features. The PCC is defined by 𝜌, and equation is shown in (10).
 
         𝜌(X, Y) = cov(X, Y)/ 𝜎X, 𝜎Y
-  
+        
+        
+        
+ <h2>Binary Search Feature Selection (BSFS)</h2>
+<p> Here I introduces a novel algorithm named binary search feature selection (BSFS) algorithm, which explores the best feature set with the least time and better accuracy. The binary search feature selection is inspired by the binary search algorithm which is shown in Algorithm 2. This algorithm initially selects half of the fea- tures from the feature’s corpus ((fa–fm)) where m denotes the midpoint that is half of the features; the accuracy is evaluated ( C ← Acc(S + x+)). If the accuracy is above the threshold value (the method used the same threshold value of sequential forward feature selection algorithm), then the method examines the  rst half of the midpoint and upgrades the threshold value with current accuracy and in the same way runs the algorithm. If the method is unable to ascertain the better accuracy than the threshold value, then the method investigates the adjacent half by assigning the midpoint with the initial point with the same threshold value.</p>
+  <img src=images/algo.jpg />
   
   
   
