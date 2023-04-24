@@ -40,7 +40,7 @@
         
  <h2>Binary Search Feature Selection (BSFS)</h2>
 <p> Here I introduces a novel algorithm named binary search feature selection (BSFS) algorithm, which explores the best feature set with the least time and better accuracy. The binary search feature selection is inspired by the binary search algorithm which is shown in Algorithm 2. This algorithm initially selects half of the fea- tures from the feature’s corpus ((fa–fm)) where m denotes the midpoint that is half of the features; the accuracy is evaluated ( C ← Acc(S + x+)). If the accuracy is above the threshold value (the method used the same threshold value of sequential forward feature selection algorithm), then the method examines the  rst half of the midpoint and upgrades the threshold value with current accuracy and in the same way runs the algorithm. If the method is unable to ascertain the better accuracy than the threshold value, then the method investigates the adjacent half by assigning the midpoint with the initial point with the same threshold value.</p>
-  <img src='images/algo.png' />
+  <img src='images/Algo.png' />
   
   
   
