@@ -57,6 +57,7 @@ Thld ← C + S←S+x<br>
 l←m−1<br>
 go to step 5<br>
 end if<br>
-return Thld <br>
+return Thld <br>![Algo](https://user-images.githubusercontent.com/90022626/234080353-851e9e26-c861-4d39-acf4-cb5e0833782f.png)
+
 end for
   
