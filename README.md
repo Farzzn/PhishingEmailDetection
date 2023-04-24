@@ -1,5 +1,5 @@
 
-<h2>The major objectives of this paper are as listed below:</h2>
+<h2>The breif description of model is listed below:</h2>
 <ul>
 <li>To generate word-based features by analyzing frequently appearing words of email’s subjects and contents.</li>
 <li>To generate link-based features by examining the URL links embedded in an email.</li>
