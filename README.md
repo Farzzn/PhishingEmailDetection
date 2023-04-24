@@ -1,5 +1,5 @@
 
-<h1>The major objectives of this paper are as listed below:</h1>
+<h2>The major objectives of this paper are as listed below:</h2>
 <ul>
 <li>To generate word-based features by analyzing frequently appearing words of email’s subjects and contents.</li>
 <li>To generate link-based features by examining the URL links embedded in an email.</li>
@@ -41,15 +41,22 @@
  <h2>Binary Search Feature Selection (BSFS)</h2>
 <p> Here I introduces a novel algorithm named binary search feature selection (BSFS) algorithm, which explores the best feature set with the least time and better accuracy. The binary search feature selection is inspired by the binary search algorithm which is shown in Algorithm 2. This algorithm initially selects half of the fea- tures from the feature’s corpus ((fa–fm)) where m denotes the midpoint that is half of the features; the accuracy is evaluated ( C ← Acc(S + x+)). If the accuracy is above the threshold value (the method used the same threshold value of sequential forward feature selection algorithm), then the method examines the  rst half of the midpoint and upgrades the threshold value with current accuracy and in the same way runs the algorithm. If the method is unable to ascertain the better accuracy than the threshold value, then the method investigates the adjacent half by assigning the midpoint with the initial point with the same threshold value.</p>
 <h3>Binary Search Feature Selection</h3>
-
-BSFS(Fi ={f1,f2,...fn}) S ← ∅
-l ← size(Fi)
-a ← 0
-forl≥ado
-m ← div((a + l), 2) x+ ← (fa to fm) C ← Acc(S + x+) if C ≤ T hld then
-S ← S + x+ a←m+1 go to step 5
-else
-T hld ← C + S←S+x l←m−1 go to step 5
-end if
-return Thld end for
+BSFS(Fi ={f1,f2,...fn}) S ← ∅<br>
+l ← size(Fi)<br>
+a ← 0<br>
+forl≥ado<br>
+m ← div((a + l),2)<br>
+x+ ← (fa to fm) <br>
+C ← Acc(S + x+) <br>
+if C ≤ Thld then<br>
+S ← S + x+ <br>
+a←m+1<br>
+go to step 5<br>
+else<br>
+Thld ← C + S←S+x<br>
+l←m−1<br>
+go to step 5<br>
+end if<br>
+return Thld <br>
+end for
   
