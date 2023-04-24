@@ -10,7 +10,7 @@
   </ul
   
   
-  <h1>Features from Hyperlinks</h1>
+  <h2>Features from Hyperlinks</h2>
   
 <ul>
   <li>has http</li>
@@ -18,3 +18,24 @@
   <li>num of subdomins</li>
   <li>has ipaddress</li>
   </ul>
+
+
+<h2>Features from Readability Algorithms</h2>
+<ul>
+  <li>Automated Readability Index</li>
+  <li>Coleman Liau Index</li>
+  <li>Flesch–Kincaid Readability Test</li>
+  <li>Gunning Fog Index</li>
+  <li>SMOG Index</li>
+  <li>LIX Readability Score</li>
+  </ul>
+  
+  <h2>Pearson Correlation Algorithm (PCC)</h2>
+  This paper has employed primarily Pearson correlation algo- rithm (PCC) to rank the features. It measures the linear corre- lation between two features. It assesses three classes of correlation: positive linear correlation is considered as 1, no linear correlation is 0, and negative linear correlation is −1.
+  Assume X = {x1 , x2 , ... xn } and Y = {y1 , y2 , ... yn } are two sets of features. The PCC is defined by 𝜌, and equation is shown in (10).
+
+        𝜌(X, Y) = cov(X, Y)/ 𝜎X, 𝜎Y
+  
+  
+  
+  
